@@ -57,7 +57,7 @@ main {
 }
 .main-visual {
   display: block;
-  background-image: url(../img/fv-bgi@2x.jpg);
+  background-image: url(img/fv-bgi@2x.jpg);
   background-size: cover;
   background-position: center;
   text-align: center;
