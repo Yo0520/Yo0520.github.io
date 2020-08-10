@@ -1,0 +1,354 @@
+@charset "UTF-8";
+
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Roboto", sans-serif, "Noto Sans JP", sans-serif;
+  color: #141414;
+  line-height: 1.7;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+li {
+  list-style: none;
+}
+.page-header {
+  background-color: #1B1310;
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+.page-header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+.header-title {
+  font-size: 26px;
+}
+.header-right .btn-gnavi {
+  display: none;
+}
+.header-right ul {
+  display: flex;
+}
+.header-right ul li {
+  margin-left: 50px;
+}
+.header-right ul li a {
+  color: #ffffff;
+}
+.header-right ul li a:hover {
+  opacity: 0.5;
+}
+.header-right ul li:nth-child(4), .header-right ul li:nth-child(5) {
+  display: none;
+}
+main {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.main-visual {
+  display: block;
+  background-image: url(../img/fv-bgi@2x.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 1000px;
+}
+.page-title {
+  display: inline-block;
+  color: #ffffff;
+  font-size: 50px;
+  margin-top: 410.5px;
+  border: 2px solid #ffffff;
+  padding: 40px;
+}
+.main-contents {
+  background-color: #ffffff;
+}
+.wrapper {
+  max-width: 1050px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.about-contents {
+  height: 335px;
+  position: relative;
+}
+.heading {
+  font-size: 36px;
+  display: inline-block;
+  letter-spacing: 2px;
+}
+.about-contents .heading {
+  margin-top: 40px;
+}
+.about-contents .writting {
+  position: absolute;
+  bottom: 0;
+  margin: 0 10px;
+}
+.writting p {
+  text-align: left;
+}
+.sub-heading {
+  margin-bottom: 35px;
+}
+.sub-heading p {
+  font-size: 24px;
+  font-style: "Noto Sans JP", sans-serif;
+  text-align: left;
+}
+.service-contents {
+  margin-top: 150px;
+}
+.content-1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 60px 10px 0;
+  justify-content: space-between;
+}
+.content-1 .writting {
+  display: inline-block;
+  margin-top: 30px;
+  width: 480px;
+}
+.content-2 {
+  display: flex;
+  align-items: center;
+  margin: 59px 10px 0;
+  justify-content: space-between;
+}
+.content-2 .writting {
+  display: inline-block;
+  width: 480px;
+}
+.news-contents {
+  margin-top: 150px;
+}
+.content-3 {
+  margin-top: 75px;
+}
+.content-3 ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+.content-3 ul li {
+  box-shadow: 0px 0px 6px rgba(27, 19, 16, 0.4);
+  max-width: 320px;
+}
+.content-3 ul li a:hover {
+  opacity: 0.5;
+  color: #2B9EC9;
+}
+.content-3 ul li a p {
+  text-align: left;
+  font-size: 13px;
+  margin: 10px 33px 0;
+  padding-bottom: 22px;
+}
+.contact {
+  max-width: 700px;
+  margin: 148px auto 0;
+}
+.contact h6 {
+  font-size: 24px;
+  text-align: center;
+}
+form {
+  margin-top: 50px;
+}
+label {
+  display: block;
+  font-size: 16px;
+  margin-top: 20px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  border: 1px solid #141414;
+  width: 700px;
+}
+textarea {
+  height: 170px;
+  margin-bottom: 40px;
+}
+input[type="submit"] {
+  display: block;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #1B1310;
+  box-shadow: 0px 0px 6px #1B1310;
+  border-radius: 40px;
+  margin: 0 auto;
+  padding: 20px 100px;
+}
+input[type="submit"]:hover {
+  opacity: 0.5;
+}
+footer {
+  text-align: center;
+  height: 79px;
+}
+footer p {
+  font-size: 14px;
+  margin-top: 50px;
+  padding: 28px 0;
+  background-color: #141414;
+  color: #ffffff;
+}
+@media (max-width: 830px) {
+  .top-wrapper {
+    overflow: hidden;
+  }
+
+  .header-right .btn-gnavi {
+    display: block;
+    position: relative;
+    height: 30px;
+    width: 35px;
+    margin-right: 20px;
+    z-index: 4;
+  }
+  .header-right .btn-gnavi span {
+    position: absolute;
+    width: 35px;
+    height: 4px;
+    background-color: #ffffff;
+  }
+  .header-right .btn-gnavi:hover {
+    opacity: 0.5;
+  }
+  .header-right .btn-gnavi span:nth-child(1) {
+    top: 0;
+  }
+  .header-right .btn-gnavi span:nth-child(2) {
+    top: 13px;
+  }
+  .header-right .btn-gnavi span:nth-child(3) {
+    top: 26px;
+  }
+  .header-right .open {
+    transform: rotate(180deg);
+  }
+  .header-right .open span:nth-child(1) {
+    transform: translate(0,13px) rotate(45deg);
+  }
+  .header-right .open span:nth-child(2) {
+    display: none;
+  }
+  .header-right .open span:nth-child(3) {
+    transform: translate(0,-13px) rotate(-45deg);
+  }
+  .header-right ul {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    background: #141414;
+  }
+  .header-right ul li {
+    display: inline-block;
+    margin: 20px auto;
+  }
+  .header-right ul li:nth-child(4), .header-right ul li:nth-child(5) {
+    display: inline-block;
+  }
+  .header-right ul li:nth-child(3) {
+    display: none;
+  }
+  .page-title {
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 286px;
+  }
+  .main-visual {
+    object-fit: contain;
+    height: 667px;
+  }
+  .main-contents {
+    display: block;
+  }
+  .sub-heading p {
+    font-size: 20px;
+  }
+  .about-contents {
+    margin-top: 50px;
+    height: 370px;
+  }
+  .about-contents .heading {
+    margin: 0;
+  }
+  .service-contents {
+    margin: 150px auto 0;
+    max-width: 480px;
+   padding: 0 10px;
+  }
+
+  .content-1 {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+  .content-1 .writting {
+    margin: 30px auto 0;
+    padding-top: 30px;
+    text-align: left;
+    width: 100%;
+  }
+  .content-1 img {
+    display: inline-block;
+    object-fit: contain;
+  }
+  .content-2 {
+    display: flex;
+    flex-direction: column;
+    margin: 59px 0 0;
+  }
+  .content-2 .writting {
+    width: 100%;
+  }
+  .news-contents {
+    margin-top: 200px;
+    overflow: hidden;
+  }
+  .content-3 ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+  }
+  .content-3 ul li {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  form {
+    margin: 50px 10px 0;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+  }
+  footer {
+    height: 60px;
+  }
+  footer p {
+    padding: 18.5px 0;
+  }
+}
